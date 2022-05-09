@@ -38,6 +38,12 @@ export default defineConfig({
           },
         ],
       },
+      workbox: {
+        cleanupOutdatedCaches: false,
+        sourcemap: true,
+      },
+      registerType: "autoUpdate",
+      strategies: "injectManifest",
     }),
   ],
 });
