@@ -2,8 +2,6 @@ import * as React from "react";
 import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import CssBaseline from "@mui/material/CssBaseline";
 import Container from "@mui/material/Container";
-import CircularProgress from "@mui/material/CircularProgress";
-import Stack from "@mui/material/Stack";
 
 const Navigation = React.lazy(() => import("./Navigation/index"));
 const Todos = React.lazy(() => import("./Navigation/Todos"));
