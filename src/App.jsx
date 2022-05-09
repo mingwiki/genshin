@@ -1,5 +1,5 @@
 import * as React from "react";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import CssBaseline from "@mui/material/CssBaseline";
 import Container from "@mui/material/Container";
 import CircularProgress from "@mui/material/CircularProgress";
@@ -17,7 +17,7 @@ export default function App() {
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth="sm">
-        <BrowserRouter>
+        <HashRouter>
           <React.Suspense fallback={<div>Loading...</div>}>
             <Routes>
               <Route path="todos" element={<Todos />} />
@@ -29,7 +29,7 @@ export default function App() {
             </Routes>
           </React.Suspense>
           <Navigation />
-        </BrowserRouter>
+        </HashRouter>
       </Container>
     </React.Fragment>
   );
