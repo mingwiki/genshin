@@ -15,9 +15,9 @@ export default defineConfig({
         "apple-touch-icon.png",
       ],
       manifest: {
-        name: "原神助手",
-        short_name: "原神助手",
-        description: "原神小工具",
+        name: "Genshin Tools",
+        short_name: "原神小工具",
+        description: "原神小工具 powered by mingwiki",
         theme_color: "#ffffff",
         icons: [
           {
