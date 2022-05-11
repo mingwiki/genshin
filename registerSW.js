@@ -1,1 +1,0 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('https://zed.ink/genshin/sw.js', { scope: 'https://zed.ink/genshin/' })})}
